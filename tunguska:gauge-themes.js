@@ -111,9 +111,9 @@ TunguskaGaugeThemePack = {
   },
   steampunk: {
     background: {
-      image: '/packages/tunguska:gauge-themes/images/steampunk01.png'
+      image: 'packages/tunguska_gauge-themes/images/steampunkbg.png'
     },
-    radius: 0.8,
+    radius: 0.95,
     range: {
       min: 0,
       max: 100,
@@ -121,6 +121,23 @@ TunguskaGaugeThemePack = {
       sweep: 300,
       lowStop: -2,
       highStop: 102
+    },
+    tick: {
+      major: {
+        lineWidth: 3,
+        startAt: 0.65,
+        endAt: 0.7,
+        interval: 10,
+        color: 'black',
+        legend: {
+          color: 'black',
+          font: '12px sans-serif',
+          radius: 0.82
+        },
+        alpha: 1,
+        first: 0,
+        last: 100
+      }
     },
     digital: {
       top: 35,
@@ -130,12 +147,12 @@ TunguskaGaugeThemePack = {
     },
     pointer: {
       image: {
-        name: '/packages/tunguska:gauge-themes/images/steampunk02.png',
+        name: 'packages/tunguska_gauge-themes/images/steampunk02.png',
         xOffset: 32,
         yOffset: 15
       },
       shadow: {
-        name: '/packages/tunguska:gauge-themes/images/steampunk03.png',
+        name: 'packages/tunguska_gauge-themes/images/steampunk03.png',
         xOffset: 32,
         yOffset: 15
       },
@@ -149,10 +166,10 @@ TunguskaGaugeThemePack = {
   },
   rotary: {
     background: {
-      image: '/packages/tunguska:gauge-themes/images/rotarybg.png'
+      image: 'packages/tunguska_gauge-themes/images/rotarybg.png'
     },
     foreground: {
-      image: '/packages/tunguska:gauge-themes/images/rotaryfg.png'
+      image: 'packages/tunguska_gauge-themes/images/rotaryfg.png'
     },
     radius: 0.90,
     range: {
@@ -165,12 +182,12 @@ TunguskaGaugeThemePack = {
     },
     pointer: {
       shadow: {
-        name: '/packages/tunguska:gauge-themes/images/rotaryp.png',
+        name: 'packages/tunguska_gauge-themes/images/rotaryp.png',
         xOffset: 89,
         yOffset: 94
       },
-      shadowX: 0,
-      shadowY: 3.5,
+      shadowX: 1.5,
+      shadowY: 5,
       dynamics: {
         duration: 400,
         easing: 'bounce'
