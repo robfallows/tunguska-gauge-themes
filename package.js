@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tunguska:gauge-themes',
-  version: '1.0.3',
+  version: '1.0.4',
   summary: 'A small theme pack for tunguska:gauge',
   git: 'https://github.com/robfallows/tunguska-gauge-themes.git',
   documentation: 'README.md'
@@ -20,7 +20,9 @@ Package.onUse(function(api) {
     'images/rotaryfg.png',
     'images/rotaryp.png'
   ], 'client');
+  api.use('tunguska:gauge@1.0.0', 'client');
   api.export('TunguskaGaugeThemePack', 'client');
+  api.export('TunguskaGauge', 'client');
 });
 
 Package.onTest(function(api) {
