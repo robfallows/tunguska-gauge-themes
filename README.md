@@ -5,13 +5,14 @@ Extends Tunguska Gauge with some example gauges.
 # Install
 
 ```JavaScript
-meteor add tunguska:gauge           } Tunguska Theme Pack needs Tunguska Gauge
-meteor add tunguska:gauge-themes    } Order of adding doesn't matter
+meteor add tunguska:gauge-themes
 ```
+
+Note that this will automatically add tunguska:gauge if it's not already there.
 
 # Demo
 
-tbd
+http://tunguska-gauge-demo.meteor.com
 
 # Basic Usage
 
