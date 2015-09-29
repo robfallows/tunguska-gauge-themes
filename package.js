@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tunguska:gauge-themes',
-  version: '1.0.4',
+  version: '1.0.5',
   summary: 'A small theme pack for tunguska:gauge',
   git: 'https://github.com/robfallows/tunguska-gauge-themes.git',
   documentation: 'README.md'

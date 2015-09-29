@@ -198,7 +198,7 @@ TunguskaGaugeThemePack = {
     radius: 0.57,
     range: {
       min: 0,
-      max: 59,
+      max: 60,
       startAngle: 0,
       sweep: 360
     },
@@ -224,7 +224,7 @@ TunguskaGaugeThemePack = {
           font: '12px sans-serif',
           radius: 0.75,
           callback: function(n) {
-            return parseInt(n / 5);
+            return parseInt(n / 5, 10);
           }
         },
         alpha: 1,
