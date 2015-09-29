@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tunguska:gauge-themes',
-  version: '1.0.5',
+  version: '1.0.6',
   summary: 'A small theme pack for tunguska:gauge',
   git: 'https://github.com/robfallows/tunguska-gauge-themes.git',
   documentation: 'README.md'
@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.addFiles('tunguska:gauge-themes.js', 'client');
-  api.addFiles([
+  api.addAssets([
     'images/steampunkbg.png',
     'images/steampunk01.png',
     'images/steampunk02.png',
